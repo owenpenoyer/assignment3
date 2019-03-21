@@ -36,3 +36,14 @@ a {
 header nav ul li {
     color: #055f0f
 }
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 40rem) {
+    header {
+        flex-direction: column;
+    }  
+}
