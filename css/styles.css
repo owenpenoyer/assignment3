@@ -25,7 +25,10 @@ li {
 
 h1 {
 
-    font-family: fantasy
+    font-family: fantasy;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #828282;
 }
 
 a {
@@ -46,4 +49,8 @@ header {
     header {
         flex-direction: column;
     }  
+}
+
+body { 
+    background-image: linear-gradient(#ffffff, #828282)
 }
